@@ -1,0 +1,261 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    background-color: white;
+}
+.nav-left{
+    display: flex;
+    font-size:1.3rem ;  
+}
+.nav-left>i{
+    font-size:2.3rem ;
+    color:#0a66c2;
+    padding-left: 70px;
+}
+
+.nav-right{
+    margin-left: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+    font-size: 1.3rem;
+}
+.nav-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: .3rem;
+   width: 70px;
+}
+.nav-icon div {
+    font-size: .8rem;
+}
+.try-premium{
+    font-size: .8rem;
+}
+.cn2{
+    height: 100%;
+    background-color:rgb(243 242 239);
+    
+}
+.all{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+input{
+    border: 0px solid black;
+    background-color: rgb(238 243 248);
+    margin: 5px;
+}
+
+ .left-bar{
+     /* display:block; */
+     /* width:25%; */
+ }   
+    
+
+.upper-box{
+    height: 300px;
+    width: 200px;
+    background-color:white;
+    border-radius: 20px;
+}
+.lower-box{
+    margin-top: 20px;
+    height: 300px;
+    width: 200px;
+    background-color:white;
+    border-radius: 20px;
+    position: sticky;
+    top: 10px;
+
+}
+.middle-bar{
+    width: 45%;
+}
+.small-box{
+    height: 110px;
+    background-color:white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.big-box{
+    height: 780px;
+    background-color:white;
+    margin:30px 0px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.right-bar{
+    /* display:block; */
+    width:35%;
+}   
+   
+
+.right-upperbox{
+   height: 300px;
+   width: 300px;
+   background-color:white;
+   border-radius: 20px;
+}
+.right-lowerbox{
+   margin-top: 20px;
+   height: 300px;
+   width: 300px;
+   background-color:white;
+   border-radius: 20px;
+   position: sticky;
+   top:10px;
+
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.small-box{
+    padding-top: 10px;
+    /* display: flex;
+    justify-content: center; */
+}
+.photo-icon{
+display: flex;
+justify-content: space-around;
+
+}
+.my-pic i{
+    font-size: 30px;
+    
+}
+.smallboxinput{
+    height: 40px;
+    width: 80%;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+
+    border: 1px solid black;
+}
+.h6{
+    margin-right: 120px;
+padding-top: 30px;
+}
+
+.text{
+    padding-left: 5px;
+    color: rgb(86, 85, 85);
+}
+.photo-icon i{
+    color: #0a66c2;
+}
+.left-myimage{
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+.first{
+    padding-top: 20px;
+}
+
+.lower-box{
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+}
+.news{
+    padding-left: 30px;
+    padding-top: 12px;
+}
+.small-letter{
+    font-size: 10px;
+    color: gray;
+}
+.add{
+    font-size: 14px;
+    padding-top: 20px;
+}
+.add2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.button{
+    color: #0a66c2;
+    border: 2px solid #0a66c2;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    
+}
+.me2 image{
+    font-size: 100px;
+    
+    
+}
+.right-lowerbox{
+    text-align: center;
+}
+.company-logo{
+    display: flex;
+    align-items: center;
+}
+.profile{
+    font-size: 13px;
+    padding-left: 10px;
+}
+.content{
+    padding-top: 10px;
+    font-size: 14px;
+    color: rgba(43, 42, 42, 0.819);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pic{
+    width: 100%;
+}
+.like-comment{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+@media screen and (max-width: 844px) {
+    .right-bar{
+        display: none;
+    }
+    .left-bar{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .middle-bar{
+        width: 100%;
+    }
+    .big-box{
+        /* height: 650px; */
+        box-sizing: border-box;
+    }
+    /* .all{
+        width: 100%;
+    } */
+  }
